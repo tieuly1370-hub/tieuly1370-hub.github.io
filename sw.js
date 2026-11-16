@@ -1,5 +1,5 @@
 /* Lò Hán service worker */
-const VERSION = "1.1.0";
+const VERSION = "1.2.0";
 const SHELL_CACHE = "lohan-shell-" + VERSION;
 const DATA_CACHE = "lohan-data-2"; // âm thanh, nét chữ, font — đổi số khi dữ liệu đổi
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
