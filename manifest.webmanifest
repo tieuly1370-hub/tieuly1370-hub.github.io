@@ -1,0 +1,16 @@
+{
+  "name": "Lò Hán — HSK1",
+  "short_name": "Lò Hán",
+  "description": "Lộ trình HSK1: Giáo trình chuẩn, bốn kỹ năng, gia sư quản thúc.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FFF8EC",
+  "theme_color": "#FFF8EC",
+  "lang": "vi",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
