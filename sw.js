@@ -1,8 +1,8 @@
-/* Lò Hán service worker */
-const VERSION = "1.2.0";
-const SHELL_CACHE = "lohan-shell-" + VERSION;
-const DATA_CACHE = "lohan-data-2"; // âm thanh, nét chữ, font — đổi số khi dữ liệu đổi
-const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
+/* Miaozi service worker */
+const VERSION = "2.0.0";
+const SHELL_CACHE = "miaozi-shell-" + VERSION;
+const DATA_CACHE = "miaozi-data-3"; // âm thanh, nét chữ, font — đổi số khi dữ liệu đổi
+const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/cat.svg"];
 const FRESH = /\/(audio|hanzi-data)\/index\.json$/;
 
 self.addEventListener("install", (event) => {

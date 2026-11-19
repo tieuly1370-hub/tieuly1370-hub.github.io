@@ -1,7 +1,7 @@
 {
-  "name": "Lò Hán — HSK1",
-  "short_name": "Lò Hán",
-  "description": "Lộ trình HSK1: Giáo trình chuẩn, bốn kỹ năng, gia sư quản thúc.",
+  "name": "Miaozi — HSK1",
+  "short_name": "Miaozi",
+  "description": "Miaozi: gia sư mèo Miao quản thúc lộ trình HSK1 — học trên Nhai, kiểm tra ở đây.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -10,7 +10,23 @@
   "theme_color": "#FFF8EC",
   "lang": "vi",
   "icons": [
-    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
