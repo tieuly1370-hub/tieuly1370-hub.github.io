@@ -1,7 +1,7 @@
 /* Miaozi service worker */
-const VERSION = "2.2.2";
+const VERSION = "2.3.0";
 const SHELL_CACHE = "miaozi-shell-" + VERSION;
-const DATA_CACHE = "miaozi-data-3"; // âm thanh, nét chữ, font — đổi số khi dữ liệu đổi
+const DATA_CACHE = "miaozi-data-4"; // âm thanh, nét chữ, font — đổi số khi dữ liệu đổi
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/maskable-512.png", "./icons/apple-touch-icon.png", "./icons/favicon-32.png", "./favicon.ico", "./miao/vui.webp", "./miao/dac_y.webp", "./miao/ngai_ngu.webp", "./miao/kho_chiu.webp", "./miao/cau.webp", "./miao/quan_tam.webp", "./miao/nghi_ngo.webp", "./miao/cuoi_khinh_bi.webp"];
 const FRESH = /\/(audio|hanzi-data)\/index\.json$/;
 
